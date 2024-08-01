@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+header {
+    background-color: rgb(143, 228, 143);
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 25px solid #6fd633;
+}
+
+.logo {
+    height: 150px;
+    width: 350px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a:hover {
+    background-color: #0da13a;
+    border-radius: 10px;
+    font-size: 26px;
+  }
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: green;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.hero img {
+    width: 100%;
+    height: 450px;
+    opacity: 0.9;
+}
+
+.hero-text {
+    font-size: 30px;
+    color: #2c0303;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.about, .info, .gallery, .contact {
+    padding: 40px 0;
+    font-size: larger;
+}
+
+.gallery-grid {
+    display: flex;
+    gap: 100px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+footer {
+    background-color: rgb(143, 228, 143);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+marquee {
+    background-color: rgb(143, 228, 143);
+}
